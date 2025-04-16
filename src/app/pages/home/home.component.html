@@ -1,0 +1,33 @@
+<div class="lista-alunos">
+    <h2>Alunos Cadastrados</h2>
+  
+    <table class="tabela-alunos">
+      <thead>
+        <tr>
+          <th>Matrícula</th>
+          <th>Nome</th>
+          <th>Curso</th>
+          <th>Disciplina</th>
+          <th>Nota</th>
+          <th>Data</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (aluno of listaAlunos; track aluno) {
+          <tr>
+            <td>{{ aluno.matricula }}</td>
+            <td>{{ aluno.nome }}</td>
+            <td>{{ aluno.curso }}</td>
+            <td>{{ aluno.disciplina}}</td>
+            <td>{{ aluno.nota}}</td>
+            <td>{{aluno.data}}</td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-excluir">Excluir</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
