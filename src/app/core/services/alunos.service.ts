@@ -17,5 +17,11 @@ export class AlunosService {
       return this.http.post<Alunos>(this.API, aluno); 
       }
 
+      deleteAluno(id: string): Observable<void> {
+        return this.http.delete<void>(`${this.API}/${id}`);
+      }
+      
+      
+      
 
 }

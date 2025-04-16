@@ -24,7 +24,7 @@
             <td>{{aluno.data}}</td>
             <td>
               <button class="btn-editar">Editar</button>
-              <button class="btn-excluir">Excluir</button>
+              <button class="btn-excluir" (click)="excluirAluno(aluno.id)">Excluir</button>
             </td>
           </tr>
         }

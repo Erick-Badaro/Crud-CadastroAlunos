@@ -1,40 +1,13 @@
 {
   "alunos": [
     {
+      "id": "48ec",
       "matricula": "1",
-      "nome": "Erick",
+      "nome": "Erick Badaró",
       "curso": "Análise e Desenvolvimento de Sistemas",
       "disciplina": "Banco de Dados",
-      "nota": 9,
-      "data": "15/04/2025",
-      "id": "02c2"
-    },
-    {
-      "matricula": "2",
-      "nome": "Gabriel",
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "disciplina": "Programação Web",
-      "nota": 8,
-      "data": "15/04/2025",
-      "id": "9ca7"
-    },
-    {
-      "id": "5c63",
-      "matricula": "5",
-      "nome": "Luis",
-      "curso": "Administração",
-      "disciplina": "Marketing",
-      "nota": 5,
-      "data": "2025-04-15"
-    },
-    {
-      "id": "b07d",
-      "matricula": "7",
-      "nome": "Evandro",
-      "curso": "Ciência da Computação",
-      "disciplina": "Hardwarw",
       "nota": 10,
-      "data": "2025-04-15"
+      "data": "2025-04-10"
     }
   ]
 }

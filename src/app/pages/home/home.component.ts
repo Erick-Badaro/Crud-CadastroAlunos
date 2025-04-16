@@ -19,5 +19,14 @@ export class HomeComponent implements OnInit {
     }); 
   } 
 
+  excluirAluno(id: string): void {
+    if (confirm('Tem certeza que deseja excluir este aluno?')) {
+      this.service.deleteAluno(id).subscribe(() => {
+        this.listaAlunos = this.listaAlunos.filter(a => a.id !== id);
+      });
+    }
+  }
+  
+
 
 }
