@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/32d78fc6-c15e-4c51-a28d-6cae2eb1c08c)
+
+
+
+
 # CRUD de Cadastro de Alunos
 
 Este é um projeto simples de CRUD (Create, Read, Update, Delete) para cadastro de alunos, desenvolvido com Angular. O objetivo é permitir a gestão de alunos, incluindo funcionalidades para cadastrar, listar, editar e excluir alunos.
