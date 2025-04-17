@@ -23,7 +23,7 @@
             <td>{{ aluno.nota}}</td>
             <td>{{aluno.data}}</td>
             <td>
-              <button class="btn-editar">Editar</button>
+              <button class="btn-editar" [routerLink]="['/editar', aluno.id]">Editar</button>
               <button class="btn-excluir" (click)="excluirAluno(aluno.id)">Excluir</button>
             </td>
           </tr>

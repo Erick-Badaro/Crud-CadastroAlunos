@@ -21,6 +21,9 @@ export class AlunosService {
         return this.http.delete<void>(`${this.API}/${id}`);
       }
       
+      atualizarAluno(id: string, aluno: Alunos): Observable<Alunos> {
+        return this.http.put<Alunos>(`${this.API}/${id}`, aluno);
+      }
       
       
 
